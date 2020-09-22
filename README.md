@@ -3,7 +3,7 @@ NCT5104D GPIO Linux Driver
 
 ## Preconditions (Compile) ##
 you should have the following packages installed:
-* linux-headers-$(uname -r)
+* linux-headers-amd64 <-- use this so it get automatically updated with your kernel or a specific version if you prefere to stick to one
 * build-essential
 * make
 * git (you can also download the repo as zip)
